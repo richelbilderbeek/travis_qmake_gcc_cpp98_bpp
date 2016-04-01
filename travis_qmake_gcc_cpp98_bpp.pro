@@ -1,9 +1,6 @@
-TEMPLATE = app
-CONFIG += console
-CONFIG -= app_bundle qt
-
 SOURCES += main.cpp
 
+# Compile with high warning level, a warning is an error
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
 # Bio++
