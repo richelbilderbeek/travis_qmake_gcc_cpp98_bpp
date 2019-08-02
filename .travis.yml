@@ -1,9 +1,10 @@
 language: cpp
 dist: bionic
 compiler: gcc
-sudo: true
 
 install: 
+  - sudo apt-get update -qq
+  # Bio++
   - sudo apt-get install libbpp*
 
 script: 
