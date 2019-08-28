@@ -8,4 +8,6 @@ install:
   - sudo apt-get install libbpp*
 
 script: 
- - ./build.sh
+  - qmake
+  - make --silent
+  - ./travis_qmake_gcc_cpp98_bpp
